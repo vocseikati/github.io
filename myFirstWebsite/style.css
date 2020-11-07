@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body {
+    background: url(assets/topography.png) fixed;
+    background-size: contain;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+    font-family: 'Cousine', monospace;
+    text-transform: uppercase;
+    background-color: #24243b; /*#333333*/
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.logo {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+#nav {
+    float: right;
+    
+}
+
+nav ul {
+    margin: 20px 0 20px 0;
+    
+}
+
+nav ul li a {
+    color: #ff0099;
+}
+
+nav a:hover {
+    padding: 15px;
+    background: rgba(255, 255, 255, .1);
+    color: #f80808;
+}
+/*
+nav a:visited {
+    color: #ff00ea;
+}*/
+
+main {
+    font-family: 'IBM Plex Mono';
+    line-height: 1.5;
+}
+
+main h3 span {
+    color: #ff0099;
+}
+
+.separator {
+    text-align: center;
+    padding: 50px;
+    font-size: x-large;
+}
+
+.wiki {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.wiki h2 {
+    text-transform: uppercase;
+    text-align: center;    
+}
+
+/*https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html*/
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+
